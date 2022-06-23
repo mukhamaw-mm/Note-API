@@ -1,0 +1,25 @@
+<section class="heading-section">
+  <h1 class="title">My Cloud Notes</h1>
+</section>
+
+
+
+
+    <form #addForm="ngForm" (ngSubmit)="onAddNote(addForm)">
+      <div>
+        <p>
+          <input  ngModel name="content" type="text" class="input" placeholder=" text here ...">
+        </p>
+
+        <p class="control">
+          <button type="submit" class="button">Add Note</button>
+        </p>
+      </div>
+
+    </form>
+
+
+
+
+
+
